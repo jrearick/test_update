@@ -1,0 +1,9 @@
+test_updates.test_update:
+  path: 'test-update'
+  defaults:
+    _controller: '\Drupal\test_updates\Controller\TestUpdatesController::page'
+    -title: 'Test an update hook'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    no_cache: 'TRUE'

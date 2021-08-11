@@ -1,4 +1,4 @@
-# test_update
+# test_updates
 
 This module is meant as a development tool for local development only.
 
@@ -8,8 +8,8 @@ Often we need to test and run and re-run updates to get them just right. It is a
 
 * Clone this to into your local development site's modules directory and enable.
     * `cd ~/Sites/drupal/web/modules`
-    * `git clone git@bitbucket.org:isubit/test_update.git`
-    * `drush en test_update`
+    * `git clone git@github.com:jrearick/test_updates.git`
+    * `drush en test_updates`
 
 ## Usage
 
@@ -18,10 +18,8 @@ Go to the page at the path `test-update`. Eg `local.test/drupal/web/test-update`
 This is a simple page that will run whatever function in a specified module's `.install` file.
 Define the module and function like so:
 
-. 
- 
 ```
-/test-update?fn=my_module_update_8901
+/test-updates?fn=my_module_update_8901
 ```
 
 The parameter **fn** is the hook_update you want to run. in the above example `my_module_update_8901` will run `my_module_update_8901();`.

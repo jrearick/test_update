@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Install, uninstall, and update hooks for the test_updates module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function test_updates_install() {
+  \Drupal::messenger()->addMessage('test_updates_install() was run. Huzza!');
+}
+
+/**
+ * This is an example update hook to play with.
+ */
+function test_updates_update_9001() {
+    \Drupal::messenger()->addMessage('test_updates_update_9001() was run. Huzza!');
+}

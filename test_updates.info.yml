@@ -1,6 +1,6 @@
-name: 'Test Update'
+name: 'Test Updates'
 type: module
-description: 'A simple UI to test hook_updates().'
+description: 'A simple UI to test update hooks.'
 package: Development
 core: 8.x
 dependencies:
