@@ -1,0 +1,7 @@
+{
+  "name": "jrearick/test_updates",
+  "description": "Drupal module to re-run specific update hooks for debugging/development",
+  "type": "drupal-module",
+  "keywords": ["Drupal"],
+  "require": {}
+}
